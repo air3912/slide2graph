@@ -1,0 +1,30 @@
+# Editor and local tooling
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+!backend/.env.example
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Misc
+.DS_Store
